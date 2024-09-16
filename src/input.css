@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-open {
+  transform: translateY(19);
+}
+
+.nav-close {
+  transform: translateY(-100px);
+}
